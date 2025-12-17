@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MODDANCE";
             #binding-cells = <0>;
-            bindings = <&kp LG(LCTRL)>, <&kp LEFT_ALT>, <&kp LEFT_GUI>;
+            bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_GUI>;
         };
 
         capsdance: capsdance {
